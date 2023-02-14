@@ -1,8 +1,16 @@
 
 package cuentas;
 
+/**
+ *
+ * @author Staka
+ */
 public class Main {
 
+    /**
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         CCuenta cuenta1;
         double saldoActual;
@@ -15,6 +23,11 @@ public class Main {
         operativa_cuenta(cuenta1, 695);
     }
 
+    /**
+     *
+     * @param cuenta
+     * @param cantidad
+     */
     public static void operativa_cuenta(CCuenta cuenta, double cantidad) {
         try {
             cuenta.retirar(cantidad);
